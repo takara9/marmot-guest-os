@@ -17,7 +17,7 @@
         - curl
         - ruby
         - ruby-bundler
-	
+
   # シリアルコンソールの設定
   - name: setup serial consolegrub.config
     copy:
