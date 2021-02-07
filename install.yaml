@@ -13,11 +13,11 @@
       name: "{{ packages }}"
       state: present
     vars:
-      packages:    
+      packages:
+        - curl
         - ruby
         - ruby-bundler
-        - net-tools
-
+	
   # シリアルコンソールの設定
   - name: setup serial consolegrub.config
     copy:
