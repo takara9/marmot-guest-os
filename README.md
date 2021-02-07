@@ -4,7 +4,8 @@
 条件として以下のコマンドが実行され、ansibleがインストールされていなければなりません。
 
 ~~~
-apt update && apt install ansible git
+sudo -s
+apt update && apt install ansible -y
 ~~~
 
 
